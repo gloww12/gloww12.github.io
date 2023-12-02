@@ -15,7 +15,7 @@ a {
 a:hover {text-decoration:underline;}
 div.header {
     position:sticky;
-    height:5vw;
+    height:60px;
     top:0;
     background-color:#24273a;
 }
