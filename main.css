@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+    margin:auto;
+    font-size:20px;
+    padding:20px;
+    color:#cad3f5;
+    background-color:#24273a;
+    max-width:90vw;
+}
+a {
+    text-decoration:none;
+    color:white;
+}
+a:hover {text-decoration:underline;}
+
+a.b {color:#5bcffa;}
+a.p {color:#f5abb9;}
+h1 {text-align:center;}
