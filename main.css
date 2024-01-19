@@ -8,7 +8,19 @@ body {
     background-color:#24273a;
     max-width:90vw;
 }
-img {max-width:80vw;}
+div.flex {
+    display:flex;
+}
+img#goober {
+    width:20vw;
+    height:20vw;
+}
+img {
+    max-width:80vw;
+    border-style:solid;
+    border-color:b7bdf8;
+    margin:5px;
+}
 a {
     text-decoration:none;
     color:#8bd5ca;
