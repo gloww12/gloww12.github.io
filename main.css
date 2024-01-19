@@ -21,6 +21,14 @@ img {
     border-color:b7bdf8;
     margin:5px;
 }
+img.icon {
+    height:50px;
+    width:50px;
+    border:none;
+}
+div.linktext {
+    padding-left:50px;
+}
 a {
     text-decoration:none;
     color:#8bd5ca;
