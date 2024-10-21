@@ -1,11 +1,11 @@
-/* if youre reading this youre really gay */
+/* hi :D */
 body {
     font-family: sans-serif;
     margin:auto;
     font-size:20px;
     padding:20px;
-    color:#cad3f5;
-    background-color:#24273a;
+    color:#cdd6f4;
+    background-color:#1e1e2e;
     max-width:90vw;
 }
 div.flex {
@@ -18,7 +18,7 @@ img#goober {
 img {
     max-width:80vw;
     border-style:solid;
-    border-color:b7bdf8;
+    border-color:#bac2de;
     margin:5px;
 }
 img.icon {
@@ -31,21 +31,21 @@ div.linktext {
 }
 a {
     text-decoration:none;
-    color:#8bd5ca;
+    color:#94e2d5;
 }
 a:hover {text-decoration:underline;}
 div.header {
     position:sticky;
     top:0;
-    background-color:#24273a;
+    background-color:#1e1e2e;
     border-bottom-style: solid;
-    border-bottom-color:#eed49f;
+    border-bottom-color:#f9e2af;
 }
 a.b {color:#5bcffa;}
-a.p {color:#f5abb9;}
+a.p {color:#f5c2e7;}
 a.w {color:white;}
 li.b {color:#5bcffa;}
-li.p {color:#f5abb9;}
+li.p {color:#f5c2e7;}
 li.g1 {color:#00a032;}
 li.g2 {color:#91d472;}
 li.w {color:white;}
@@ -53,9 +53,9 @@ li.grey {color:#a8a8a8;}
 li.bl {color:#000000;}
 h1 {
     text-align:center;
-    color:#a6da95;
+    color:#f5c2e7;
 }
-h2 {color:#f5bde6;}
+h2 {color:#f5c2e7;}
 
 div.header nav {
     padding:20px 0px 5px 0px;
@@ -69,13 +69,13 @@ div.header nav ul li {
     padding-right:20px;
 }
 div.header a {
-    color:#7dc4e4;
+    color:#89b4fa;
     text-decoration:none;
 }
 div.header a:hover {
     text-decoration:underline;
 }
 div.header a:active {
-    color:#ed8796;
+    color:#f38ba8;
 }
 
