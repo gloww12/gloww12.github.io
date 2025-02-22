@@ -1,61 +1,75 @@
 /* hi :D */
+:root {
+  --text: #cdd6f4;
+  --subtext: #bac2de;
+  --pink: #f5c2e7;
+  --blue: #89b4fa;
+  --yellow: #f9e2af;
+  --red: #f38ba8;
+  --bg: #1e1e2e;
+}
+
 body {
     font-family: sans-serif;
     margin:auto;
     font-size:20px;
     padding:20px;
-    color:#cdd6f4;
-    background-color:#1e1e2e;
+    color: var(--text);
+    background-color: var(--bg);
     max-width:90vw;
 }
+
 div.flex {
     display:flex;
 }
+
 img#goober {
     width:20vw;
     height:20vw;
 }
+
 img {
     max-width:80vw;
     border-style:solid;
-    border-color:#bac2de;
+    border-color: var(--subtext);
     margin:5px;
 }
+
 img.icon {
     height:50px;
     width:50px;
     border:none;
 }
+
 div.linktext {
     padding-left:50px;
 }
+
 a {
     text-decoration:none;
-    color:#94e2d5;
+    color: var(--blue);
 }
-a:hover {text-decoration:underline;}
+
+a:hover {
+  text-decoration:underline;
+}
+
 div.header {
     position:sticky;
     top:0;
-    background-color:#1e1e2e;
+    background-color: var(--bg);
     border-bottom-style: solid;
-    border-bottom-color:#f9e2af;
+    border-bottom-color: var(--yellow);
 }
-a.b {color:#5bcffa;}
-a.p {color:#f5c2e7;}
-a.w {color:white;}
-li.b {color:#5bcffa;}
-li.p {color:#f5c2e7;}
-li.g1 {color:#00a032;}
-li.g2 {color:#91d472;}
-li.w {color:white;}
-li.grey {color:#a8a8a8;}
-li.bl {color:#000000;}
+
 h1 {
     text-align:center;
-    color:#f5c2e7;
+    color: var(--pink);
 }
-h2 {color:#f5c2e7;}
+
+h2 {
+  color: var(--pink);
+}
 
 div.header nav {
     padding:20px 0px 5px 0px;
@@ -69,13 +83,13 @@ div.header nav ul li {
     padding-right:20px;
 }
 div.header a {
-    color:#89b4fa;
+    color: var(--blue);
     text-decoration:none;
 }
 div.header a:hover {
     text-decoration:underline;
 }
 div.header a:active {
-    color:#f38ba8;
+    color: var(--red);
 }
 
