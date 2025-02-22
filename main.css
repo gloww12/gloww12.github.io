@@ -21,6 +21,10 @@ body {
 
 div.flex {
   display: flex;
+}
+
+div.flex-split {
+  display: flex;
   justify-content: space-between;
 }
 
